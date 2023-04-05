@@ -17,7 +17,7 @@ public class Main implements ActionListener{
 
     public static void main(String[] args) {
 
-        JFrame frame = new JFrame("S-Tools");
+        JFrame frame = new JFrame("versión 1.02");
 
         frame.setVisible(true);
         frame.setBounds(50, 50, 250, 200);
