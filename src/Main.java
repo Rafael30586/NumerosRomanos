@@ -17,7 +17,7 @@ public class Main implements ActionListener{
 
     public static void main(String[] args) {
 
-        JFrame frame = new JFrame("versión 1.02");
+        JFrame frame = new JFrame("versión 1.03");
 
         frame.setVisible(true);
         frame.setBounds(50, 50, 250, 200);
@@ -142,12 +142,12 @@ public class Main implements ActionListener{
                 numRomanoEtiqueta.setText(mil+cien+diez+cero);
             }
             else{
-                JOptionPane.showMessageDialog(null,"El numero debe ser mayor que 0 y menor que 4000");
+                JOptionPane.showMessageDialog(null,"El numero debe ser mayor que 0 y menor que 4000","Aviso", JOptionPane.WARNING_MESSAGE);
             }
 
         }
         catch(Exception numberFormat){
-            JOptionPane.showMessageDialog(null, "Solo se permite ingresar numeros");
+            JOptionPane.showMessageDialog(null, "Solo se permite ingresar numeros","Aviso", JOptionPane.WARNING_MESSAGE);
         }
 
 
