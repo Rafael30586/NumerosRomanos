@@ -142,12 +142,12 @@ public class Main implements ActionListener{
                 numRomanoEtiqueta.setText(mil+cien+diez+cero);
             }
             else{
-                JOptionPane.showMessageDialog(null,"El numero debe ser mayor que 0 y menor que 4000","Aviso", JOptionPane.WARNING_MESSAGE);
+                JOptionPane.showMessageDialog(null,"El número debe ser mayor que 0 y menor que 4000","Aviso", JOptionPane.WARNING_MESSAGE);
             }
 
         }
         catch(Exception numberFormat){
-            JOptionPane.showMessageDialog(null, "Solo se permite ingresar numeros","Aviso", JOptionPane.WARNING_MESSAGE);
+            JOptionPane.showMessageDialog(null, "Solo se permite ingresar números","Aviso", JOptionPane.WARNING_MESSAGE);
         }
 
 
